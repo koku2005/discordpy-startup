@@ -14,11 +14,8 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
-
-@bot.command()
 async def sex(ctx):
-    await ctx.ononon('pong')    
+    await ctx.send('おんおんおん')
+
 
 bot.run(token)
