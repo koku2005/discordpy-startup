@@ -19,6 +19,6 @@ async def ping(ctx):
 
 @bot.command()
 async def sex(ctx):
-    await ctx.send('おんおんおん')
+    await ctx.send('!skip')
     
 bot.run(token)
